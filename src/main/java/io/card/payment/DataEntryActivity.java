@@ -25,7 +25,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.RelativeLayout.LayoutParams;
-import io.card.payment.R.drawable;
+//import io.card.payment.R.drawable;
 import io.card.payment.i18n.LocalizedStrings;
 import io.card.payment.i18n.StringKey;
 import io.card.payment.ui.ActivityHelper;
@@ -319,7 +319,7 @@ public final class DataEntryActivity extends Activity implements TextWatcher {
             Drawable icon = null;
             boolean usePayPalActionBarIcon = this.getIntent().getBooleanExtra("io.card.payment.intentSenderIsPayPal", true);
             if (usePayPalActionBarIcon) {
-                icon = this.getResources().getDrawable(drawable.cio_ic_paypal_monogram);
+                //icon = this.getResources().getDrawable(drawable.cio_ic_paypal_monogram);
             }
 
             if (requireExpiry && this.expiryValidator.isValid()) {

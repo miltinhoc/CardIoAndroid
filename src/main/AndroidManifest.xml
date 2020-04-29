@@ -18,6 +18,7 @@
         </activity>
 
         <activity android:name="io.card.test.CardIOTestActivity"/>
+        <!--<activity android:name="io.card.payment.DataEntryActivity" />-->
 
     </application>
 

@@ -7,12 +7,11 @@ package io.card.payment;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import io.card.payment.R.drawable;
+//import io.card.payment.R.drawable;
 
 class Logo {
     private final Paint mPaint = new Paint();
@@ -31,9 +30,9 @@ class Logo {
         if (this.mLogo == null || useCardIOLogo != this.mUseCardIOLogo) {
             this.mUseCardIOLogo = useCardIOLogo;
             if (useCardIOLogo) {
-                this.mLogo = BitmapFactory.decodeResource(this.mContext.getResources(), drawable.cio_card_io_logo);
+                //this.mLogo = BitmapFactory.decodeResource(this.mContext.getResources(), drawable.cio_card_io_logo);
             } else {
-                this.mLogo = BitmapFactory.decodeResource(this.mContext.getResources(), drawable.cio_paypal_logo);
+                //this.mLogo = BitmapFactory.decodeResource(this.mContext.getResources(), drawable.cio_paypal_logo);
             }
 
         }
